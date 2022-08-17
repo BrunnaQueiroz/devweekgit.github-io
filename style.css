@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #101891;
+    background-color: #999999;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #0f6bb1;
+    background-color: #424a50;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -33,7 +33,7 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #e7e3e3;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .profile .profile-image {
@@ -42,18 +42,17 @@
 }
 
 .name {
-    color: #eeeeee;
+    color: #D6DBDF;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.occupation {
-    color: #000000;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: capitalize;
-    text-align: left;
+.profession {
+    color: #eeeeee;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
@@ -92,7 +91,7 @@
 }
 
 .right-title {
-    color: #3d80d8;
+    color: #eeeeee;
 }
 
 .gap {
@@ -101,4 +100,39 @@
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
