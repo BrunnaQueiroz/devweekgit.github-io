@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #0c073a;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -46,23 +46,32 @@
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
 
-.profession {
-    color: #eeeeee;
-    font-size: 20px;
+.occupation {
+    color: #d8ee11;
+    font-size: 14px;
+    font-weight: bold;    
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    padding-top: 2rem;
+    text-transform: uppercase;    
+    color: #d8ee11;
+    font-weight: bold;
     font-size: 20px;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    padding-block: 1.2rem;
 }
 
 .contact-info ul li,
@@ -79,20 +88,38 @@
 }
 
 .skills ul {
-    padding-top: 1.5rem;
+    color: #d8ee11;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 1.5rem;   
+
 }
-.skills ul li p {
+.skills ul li p {    
+    
     padding: .4rem 0;
     color: #eeeeee;
 }
 
 .right-section-contents {
     padding: 2rem 2rem;
+    
+}
+
+.right-section {
+    background-color: rgb(57, 59, 92);
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #70C6C7;
+    text-transform: bold;
+    padding-block: 3rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;        
+    font-size: 40px;
+    padding-bottom: 1.5rem;    
 }
+
+
 
 .gap {
     padding-bottom: 2rem;
@@ -102,7 +129,12 @@
     color: #eeeeee;
 }
 
-.experience-contents,
+
+.experience-contents{
+    color: #eeeeee;
+    padding-left: 2rem;    
+    
+}
 .education-contents,
 .awards-contents {
     display: grid;
