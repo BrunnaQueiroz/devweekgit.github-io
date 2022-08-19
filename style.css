@@ -55,9 +55,9 @@
     font-size: 14px;
     font-weight: bold;    
     text-transform: uppercase;
-    text-align: left;
-    padding-top: 1rem;
+    text-align: left;    
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
@@ -110,31 +110,34 @@
 }
 
 .right-title {
-    color: #70C6C7;
-    text-transform: bold;
+    color: #70C6C7;   
+    font-size: 40px; 
+    padding-bottom: 1.5rem;  
     padding-block: 3rem;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;        
-    font-size: 40px;
-    padding-bottom: 1.5rem;    
+    text-transform: bold;
+    text-transform: uppercase; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif                     
 }
-
 
 
 .gap {
     padding-bottom: 2rem;
+    color: #d8ee11;
+    font-size: 20px;
+    letter-spacing: 0.09rem;    
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: #0c073a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
-
-.experience-contents{
-    color: #eeeeee;
-    padding-left: 2rem;    
-    
-}
+.experience-contents,
 .education-contents,
 .awards-contents {
     display: grid;
@@ -144,7 +147,17 @@
 }
 
 .exp-company-name,
-.education-school-name,
+.education-school-name {
+    color: #d8ee11;
+    font-size: 20px;
+    letter-spacing: 0.09rem;    
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: #0c073a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
@@ -156,14 +169,33 @@
     font-size: 18px;
 }
 
-.exp-position,
-.education-subject,
+.exp-position {
+    color:#d8ee11;
+    font-size: 20px;               
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.education-subject {
+    color:#d8ee11;
+    font-size: 20px;               
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
 .awards-name {
     font-size: 25px;
 }
 
-.exp-desc,
-.education-desc,
+.exp-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-transform: initial;
+}
+.education-desc {
+    color: #eeeeee;
+    padding-top: 1mm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
